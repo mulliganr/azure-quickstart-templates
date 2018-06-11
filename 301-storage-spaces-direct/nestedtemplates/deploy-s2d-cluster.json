@@ -139,7 +139,9 @@
       "name": "[variables('vmAvailabilitySetName')]",
       "apiVersion": "2015-06-15",
       "location": "[parameters('location')]",
-      "sku": "Aligned",
+     "sku": {
+        "name": "aligned"
+      },
       "properties": {}
     },
     {
