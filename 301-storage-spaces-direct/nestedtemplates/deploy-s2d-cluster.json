@@ -142,7 +142,10 @@
      "sku": {
       "name": "Aligned"
       },
-      "properties": {}
+      "properties": {
+        "platformUpdateDomainCount": "2",
+        "platformFaultDomainCount": "2"       
+      },
     },
     {
       "type": "Microsoft.Storage/storageAccounts",
